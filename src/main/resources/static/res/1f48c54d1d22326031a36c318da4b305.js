@@ -9376,7 +9376,7 @@ jQuery(document).ready(function($) {
 	var current_page_id = jQuery('body').attr('data-pid');
 	var current_page_key = jQuery('body').attr('data-pkey');
 	
-	if(current_page_id != '' && current_page_id != 'undefined' && current_page_key != '' && current_page_key != 'undefined'){
+	if(false){
 	    jQuery.ajax({
 	        url: '/FeiEditor/traffic/log',
 	        type: 'post',
