@@ -18,7 +18,7 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'war'
 
 group = 'cn.com.njdhy.www.tech'
-version = '0.0.2'
+version = '0.0.4'
 sourceCompatibility = 1.8
 
 repositories {

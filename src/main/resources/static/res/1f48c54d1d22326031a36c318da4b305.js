@@ -7906,7 +7906,7 @@ function checkAdvertising(){
 	if(dtGlobals.qfymodel){ href="#";}
 
 	var style = 'display:block !important;opacity: 1 !important;position:fixed !important;bottom:40px !important;left:0 !important;width:116px !important;height:25px !important;line-height:24px !important;background:#23282D !important;z-index:2147483647 !important;text-align:center;color:#fff !important;font-size:12px;border-top-right-radius:3px;border-bottom-right-radius:3px;';
-	var content = 'BY 起飞页自助建站';
+	var content = '';
 	if(jQuery(".qfy_advertising").length==0){
 		var tmphtml= '<a class="wf-mobile-hidden qfy_advertising" target=_blank style="'+style+'"  rel="external nofollow" href="'+href+'" >'+content+'</a>';
 		jQuery("#page").append(tmphtml);
